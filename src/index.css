@@ -41,6 +41,15 @@ h1 {
   padding: 2.4rem 0;
 }
 
+.emir{
+  text-align: center;
+  background-color: #f4a226;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding: 2rem;
+}
+
 .add-form {
   background-color: #e5771f;
   padding: 2.8rem 0;

@@ -1,3 +1,8 @@
 export default function Logo() {
-  return <h1>🌴 Far Away 🧳</h1>;
+  return (
+    <div>
+      <h1>🌴 Far Away 🧳</h1>
+      <p className="emir">Created by EmirGungor</p>
+    </div>
+  );
 }
