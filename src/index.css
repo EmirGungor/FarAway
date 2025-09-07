@@ -39,7 +39,7 @@ h1 {
   word-spacing: 30px;
   letter-spacing: -5px;
   padding: 2.4rem 0;
-  font-size: clamp(5.3rem, 8vw, 8rem);  /* 8rem sabit yerine akışkan */
+  font-size: clamp(5rem, 8vw, 8rem);  
   letter-spacing: clamp(-2px, -0.5vw, -5px);
   word-spacing: clamp(8px, 2vw, 30px);
 }
@@ -63,12 +63,12 @@ h1 {
 
 @media (max-width: 885px) {
   .add-form {
-    flex-wrap: wrap;           /* alt satıra geçebilsin */
+    flex-wrap: wrap;     
     padding: 1.6rem;
   }
   .add-form h3 {
-    flex: 0 0 100%;            /* tam satır kapla -> üste yerleşir */
-    margin: 0 0 0.8rem 0;      /* sağ marjı kaldır, alta biraz boşluk */
+    flex: 0 0 100%;       
+    margin: 0 0 0.8rem 0;      
     text-align: center;
   }
 }
