@@ -12,7 +12,6 @@
 
 html {
   font-size: 62.5%;
-  overflow-x: hidden;
   width: 100%;
 }
 
@@ -22,7 +21,6 @@ body {
   color: #5a3e2b;
   font-family: "Quicksand";
   font-weight: 500;
-  overflow-x: hidden;
   width: 100%;
 }
 
@@ -43,7 +41,7 @@ h1 {
   word-spacing: 30px;
   letter-spacing: -5px;
   padding: 2.4rem 0;
-  font-size: clamp(4.7rem, 8vw, 8rem);
+  font-size: clamp(3rem, 8vw, 8rem);
   letter-spacing: clamp(-2px, -0.5vw, -5px);
   word-spacing: clamp(8px, 2vw, 30px);
   white-space: nowrap;
