@@ -39,12 +39,15 @@ h1 {
   word-spacing: 30px;
   letter-spacing: -5px;
   padding: 2.4rem 0;
-  font-size: clamp(4.7rem, 8vw, 8rem);  
+  font-size: clamp(4.7rem, 8vw, 8rem);
   letter-spacing: clamp(-2px, -0.5vw, -5px);
   word-spacing: clamp(8px, 2vw, 30px);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-.emir{
+.emir {
   text-align: center;
   background-color: #f4a226;
   font-size: 1.3rem;
@@ -63,12 +66,12 @@ h1 {
 
 @media (max-width: 885px) {
   .add-form {
-    flex-wrap: wrap;     
+    flex-wrap: wrap;
     padding: 1.6rem;
   }
   .add-form h3 {
-    flex: 0 0 100%;       
-    margin: 0 0 0.8rem 0;      
+    flex: 0 0 100%;
+    margin: 0 0 0.8rem 0;
     text-align: center;
   }
 }
@@ -120,8 +123,8 @@ input {
 
 .list ul {
   list-style: none;
-  width: 100%;                         
-  padding-inline: 1.6rem;              
+  width: 100%;
+  padding-inline: 1.6rem;
   display: grid;
   grid-template-columns: repeat(
     auto-fill,
